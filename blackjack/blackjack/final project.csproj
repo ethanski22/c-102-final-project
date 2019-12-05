@@ -79,6 +79,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="money.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -104,6 +105,64 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\a-c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\a-h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\10-c.png" />
+    <Resource Include="images\10-d.png" />
+    <Resource Include="images\10-h.png" />
+    <Resource Include="images\10-s.png" />
+    <Resource Include="images\2-c.png" />
+    <Resource Include="images\2-d.png" />
+    <Resource Include="images\2-h.png" />
+    <Resource Include="images\2-s.png" />
+    <Resource Include="images\3-c.png" />
+    <Resource Include="images\3-d.png" />
+    <Resource Include="images\3-h.png" />
+    <Resource Include="images\3-s.png" />
+    <Resource Include="images\4-c.png" />
+    <Resource Include="images\4-d.png" />
+    <Resource Include="images\4-h.png" />
+    <Resource Include="images\4-s.png" />
+    <Resource Include="images\5-c.png" />
+    <Resource Include="images\5-d.png" />
+    <Resource Include="images\5-h.png" />
+    <Resource Include="images\5-s.png" />
+    <Resource Include="images\6-c.png" />
+    <Resource Include="images\6-d.png" />
+    <Resource Include="images\6-h.png" />
+    <Resource Include="images\6-s.png" />
+    <Resource Include="images\7-c.png" />
+    <Resource Include="images\7-d.png" />
+    <Resource Include="images\7-h.png" />
+    <Resource Include="images\7-s.png" />
+    <Resource Include="images\8-c.png" />
+    <Resource Include="images\8-d.png" />
+    <Resource Include="images\8-h.png" />
+    <Resource Include="images\8-s.png" />
+    <Resource Include="images\9-c.png" />
+    <Resource Include="images\9-d.png" />
+    <Resource Include="images\9-h.png" />
+    <Resource Include="images\9-s.png" />
+    <Resource Include="images\a-d.png" />
+    <Resource Include="images\a-s.png" />
+    <Resource Include="images\j-c.png" />
+    <Resource Include="images\j-d.png" />
+    <Resource Include="images\j-h.png" />
+    <Resource Include="images\j-s.png" />
+    <Resource Include="images\k-c.png" />
+    <Resource Include="images\k-d.png" />
+    <Resource Include="images\k-h.png" />
+    <Resource Include="images\k-s.png" />
+    <Resource Include="images\q-c.png" />
+    <Resource Include="images\q-d.png" />
+    <Resource Include="images\q-h.png" />
+    <Resource Include="images\q-s.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

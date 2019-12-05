@@ -13,9 +13,17 @@
         <TextBox x:Name="bid" HorizontalAlignment="Left" Height="23" Margin="10,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label1" Content="What is your bid:" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Dealers hand" HorizontalAlignment="Center" Margin="10,72,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label3" Content="Your hand" HorizontalAlignment="Center" Margin="10,274,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Your hand" HorizontalAlignment="Center" Margin="172,257,156,0" VerticalAlignment="Top"/>
         <Label x:Name="dealershand" Content="XXXXX" HorizontalAlignment="Center" Margin="10,114,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="playershand" Content="XXXXX" HorizontalAlignment="Center" Margin="10,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="playershand" Content="XXXXX" HorizontalAlignment="Center" Margin="178,226,168,0" VerticalAlignment="Top"/>
+        <Button x:Name="minbet" Content="Min bet" HorizontalAlignment="Left" Margin="199,339,0,0" VerticalAlignment="Top" Width="46" Click="minbet_Click"/>
+        <Button x:Name="maxbet" Content="Max bet" HorizontalAlignment="Left" Margin="250,339,0,0" VerticalAlignment="Top" Width="52" Click="maxbet_Click"/>
+        <Label x:Name="money" Content="Moneys:" HorizontalAlignment="Left" Margin="199,305,0,0" VerticalAlignment="Top" Width="183"/>
+
+        <Image x:Name="Card" Margin="123,141,239,188" />
+        <TextBox x:Name="acevalue" HorizontalAlignment="Left" Height="23" Margin="25,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="acevalue_TextChanged"/>
+        <Label x:Name="label4" Content="What do you want ace to &#xD;&#xA;           be 1 or 11&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Height="44"/>
+        <Label x:Name="winlose" Content="XXXXX" HorizontalAlignment="Left" Height="31" Margin="47,122,0,0" VerticalAlignment="Top" Width="62"/>
 
     </Grid>
 </Window>

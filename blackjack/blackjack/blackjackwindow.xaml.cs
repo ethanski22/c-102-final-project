@@ -24,9 +24,19 @@ namespace blackjack
             InitializeComponent();
         }
 
-        private void start_Click(object sender, RoutedEventArgs e)
+        public void setCardImage(int cardNumber)
         {
 
+            BitmapImage card = new BitmapImage();
+            card.BeginInit();
+            card.UriSource = new Uri(@"/images/a-c.png", UriKind.RelativeOrAbsolute);
+            card.EndInit();
+            Card.Source = card;
+        }
+
+        private void start_Click(object sender, RoutedEventArgs e)
+        {
+            setCardImage(1);
         }
 
         private void back_Click(object sender, RoutedEventArgs e)
@@ -34,6 +44,32 @@ namespace blackjack
             MainWindow win = new MainWindow();
             win.Show();
             this.Close();
+        }
+
+        private void minbet_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void maxbet_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void acevalue_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if(acevalue == 1){
+
+            }
+            else if(acevalue == 11)
+            {
+
+            }
+            else
+            {
+                this.Close();
+            }
+            int acevalue1 = acevalue.Text;
         }
     }
 }
