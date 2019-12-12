@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="blackjackwindow" Height="400" Width="400">
     <Grid>
-        <Button x:Name="start" Content="Start" HorizontalAlignment="Left" Margin="307,339,0,0" VerticalAlignment="Top" Width="75" Click="start_Click"/>
+        <Button x:Name="start" Content="Draw" HorizontalAlignment="Left" Margin="307,339,0,0" VerticalAlignment="Top" Width="75" Click="start_Click"/>
         <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="42" Click="back_Click"/>
         <Label x:Name="label" Content="Blackjack" HorizontalAlignment="Center" Margin="10,12,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="bid" HorizontalAlignment="Left" Height="23" Margin="10,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
@@ -23,7 +23,9 @@
         <Image x:Name="Card" Margin="123,141,239,188" />
         <TextBox x:Name="acevalue" HorizontalAlignment="Left" Height="23" Margin="25,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="acevalue_TextChanged"/>
         <Label x:Name="label4" Content="What do you want ace to &#xD;&#xA;           be 1 or 11&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Height="44"/>
-        <Label x:Name="winlose" Content="XXXXX" HorizontalAlignment="Left" Height="31" Margin="47,122,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label x:Name="winlose" Content="XXXXX" HorizontalAlignment="Left" Height="31" Margin="47,146,0,0" VerticalAlignment="Top" Width="62"/>
+        <Button x:Name="hit" Content="Hit" HorizontalAlignment="Left" Margin="307,149,0,0" VerticalAlignment="Top" Width="75" Click="hit_Click"/>
+        <Button x:Name="stand" Content="Stand" HorizontalAlignment="Left" Margin="307,174,0,0" VerticalAlignment="Top" Width="75" Click="stand_Click"/>
 
     </Grid>
 </Window>

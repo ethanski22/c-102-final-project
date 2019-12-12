@@ -8,6 +8,6 @@ namespace blackjack
 {
     class moneys
     {
-        public int money = 1000;
+        
     }
 }

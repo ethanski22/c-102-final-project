@@ -21,12 +21,12 @@ namespace blackjack
         {
             Card result = null;
 
-            List<int> listcards = new List<int>();
+            List<int> cards = new List<int>();
             Random rnd = new Random();
             int card = rnd.Next(1, 52);
             for (int i = 0; i < 10; i++)
             {
-                listcards.Add(card);
+                cards.Add(card);
                 card = rnd.Next(1, 52);
                 if(card == 1)
                 {
